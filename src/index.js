@@ -6,14 +6,5 @@ import resize from './Resize';
 import scene from './Scene'
 
 
-scene.add(box)
-scene.add(light)
-// camera.position.z = 5
-camera.position.set(1, 2, 5)
-camera.lookAt(box.position)
-resize.start(renderer)
-setInterval(() => {
-    box.rotation.y += 0.01
-    renderer.render(scene, camera);
-}, 1000/30);
+export { box, camera, light, renderer, resize, scene }
 

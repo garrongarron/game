@@ -1,8 +1,8 @@
 {
-  "name": "game",
-  "version": "1.0.0",
+  "name": "game-samugarron",
+  "version": "0.0.2",
   "description": "Game in 3d with Javascript",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "build": "webpack --mode=development --config webpack.config.js",
     "prod": "webpack --mode=production --config webpack.config.js"
@@ -16,5 +16,13 @@
   },
   "dependencies": {
     "three": "^0.131.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garrongarron/game.git"
+  },
+  "bugs": {
+    "url": "https://github.com/garrongarron/game/issues"
+  },
+  "homepage": "https://github.com/garrongarron/game#readme"
 }
